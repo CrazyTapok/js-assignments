@@ -129,7 +129,6 @@ function getAngleBetweenVectors(x1, y1, x2, y2) {
  */
 function getLastDigit(value) {
   return value % 10 ;
-  throw new Error('Not implemented');
 }
 
 
