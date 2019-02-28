@@ -89,7 +89,7 @@ function getDistanceBetweenPoints(x1, y1, x2, y2) {
  *   5*x = 0         => 0
  */
 function getLinearEquationRoot(a, b) {
-  throw new Error('Not implemented');
+  return b*(-1) / a;
 }
 
 
@@ -144,7 +144,7 @@ function getLastDigit(value) {
  * '-525.5'     => -525.5
  */
 function parseNumberFromString(value) {
-  throw new Error('Not implemented');
+    return Number(value);
 }
 
 /**
