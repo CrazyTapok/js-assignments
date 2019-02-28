@@ -20,8 +20,7 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-  let str;  
-  return str = value1 + value2;
+  return value1 + value2;
 }
 
 /**
@@ -36,8 +35,7 @@ function concatenateStrings(value1, value2) {
  *   ''      => 0
  */
 function getStringLength(value) {
-  let long;
-  return long = value.length;
+  return value.length;
 }
 
 /**
@@ -54,8 +52,7 @@ function getStringLength(value) {
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName) {
-  let str;
-  return str = "Hello" + firstName + " " + lastName + "!";
+  return "Hello" + firstName + " " + lastName + "!";
 }
 
 /**
@@ -69,8 +66,7 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function  extractNameFromTemplate(value) {
-  let str = value.slice(6, value.length -1);
-  return str;
+  return str = value.slice(6, value.length -1);
 }
 
 
@@ -85,8 +81,7 @@ function  extractNameFromTemplate(value) {
  *   'cat'       => 'c'
  */
 function getFirstChar(value) {
-  let str;
-  return str = value.charAt(0);
+  return value.charAt(0);
 }
 
 /**
@@ -116,8 +111,7 @@ function removeLeadingAndTrailingWhitespaces(value) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(value, count) {
-  let str;
-  return str = value.repeat(count);
+  return value.repeat(count);
 }
 
 /**
@@ -133,7 +127,7 @@ function repeatString(value, count) {
  *   'ABABAB','BA' => 'ABAB'
  */
 function removeFirstOccurrences(str, value)  {
-  let word = str.replace(value, "");
+  return str.replace(value, "");
 }
 
 /**
@@ -163,8 +157,7 @@ function unbracketTag(str) {
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
 function convertToUpperCase(str) {
-  let value;
-  return value = str.toUpperCase();
+  return str.toUpperCase();
 }
 
 /**
