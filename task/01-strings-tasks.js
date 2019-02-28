@@ -20,7 +20,8 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-  throw new Error('Not implemented');
+  let str;  
+  return str = value1 + value2;
 }
 
 /**
@@ -35,7 +36,8 @@ function concatenateStrings(value1, value2) {
  *   ''      => 0
  */
 function getStringLength(value) {
-  throw new Error('Not implemented');
+  let long;
+  return long = value.length;
 }
 
 /**
@@ -52,7 +54,8 @@ function getStringLength(value) {
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName) {
-  throw new Error('Not implemented');
+  let str;
+  return str = "Hello" + firstName + " " + lastName + "!";
 }
 
 /**
@@ -66,7 +69,8 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function  extractNameFromTemplate(value) {
-  throw new Error('Not implemented');
+  let str = value.slice(6, value.length -1);
+  return str;
 }
 
 
@@ -81,7 +85,8 @@ function  extractNameFromTemplate(value) {
  *   'cat'       => 'c'
  */
 function getFirstChar(value) {
-  throw new Error('Not implemented');
+  let str;
+  return str = value.charAt(0);
 }
 
 /**
@@ -96,7 +101,7 @@ function getFirstChar(value) {
  *   '\tHello, World! ' => 'Hello, World!'
  */
 function removeLeadingAndTrailingWhitespaces(value) {
-  throw new Error('Not implemented');
+  return value.trim();
 }
 
 /**
@@ -111,7 +116,8 @@ function removeLeadingAndTrailingWhitespaces(value) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(value, count) {
-  throw new Error('Not implemented');
+  let str;
+  return str = value.repeat(count);
 }
 
 /**
@@ -127,7 +133,7 @@ function repeatString(value, count) {
  *   'ABABAB','BA' => 'ABAB'
  */
 function removeFirstOccurrences(str, value)  {
-  throw new Error('Not implemented');
+  let word = str.replace(value, "");
 }
 
 /**
@@ -142,7 +148,7 @@ function removeFirstOccurrences(str, value)  {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-  throw new Error('Not implemented');
+  return str.substring(1, str.length - 1);
 }
 
 
@@ -157,7 +163,8 @@ function unbracketTag(str) {
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
 function convertToUpperCase(str) {
-  throw new Error('Not implemented');
+  let value;
+  return value = str.toUpperCase();
 }
 
 /**
