@@ -53,7 +53,7 @@ function getCicleCircumference(radius) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  return (value1 + value2) / 2;
+  return (Number(value1) + Number(value2)) / 2;
 }
 
 /**
@@ -182,7 +182,7 @@ function getParallelipidedDiagonal(a, b, c) {
  *   1678, 3  => 2000
  */
 function roundToPowerOfTen(num, pow) {
-  throw new Error('Not implemented');
+      num.toFixed(pow);
 }
 
 /**
@@ -203,10 +203,7 @@ function roundToPowerOfTen(num, pow) {
  *   17 => true
  */
 function isPrime(n) {
-  if(n % 2 == 1 || n == 1)
-     return true;
-  else
-    return false;
+  fgb;
 }
 
 /**
